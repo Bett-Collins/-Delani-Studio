@@ -104,32 +104,33 @@ $(document).ready(function () {
     })
 })
 
-    function submit() {
+function submit() {
 
-        var enteredName = validName();
-        enteredName = document.getElementById("name").value;
-        validEmail()
-        message();
-        alert("Hey " + enteredName + " ,We have received your message. Thank you for reaching out to us.");
-    
+    var enteredName = validName();
+    enteredName = document.getElementById("name").value;
+    validEmail()
+    message();
+    alert("Hey " + enteredName + " ,We have received your message. Thank you for reaching out to us.");
+
+}
+
+function validName() {
+    var name = document.getElementById("name").value;
+    if (name == "") {
+        alert("please provide name");
     }
-    function validName() {
-        var name = document.getElementById("name").value;
-        if (name == "") {
-            alert("please provide name");
-        }
+}
+
+function validEmail() {
+    var email = document.getElementById("email").value;
+    if (email == "") {
+        alert("please provide email");
     }
-    function validEmail() {
-        var email = document.getElementById("email").value;
-        if (email == "") {
-            alert("please provide email");
-        }
+}
+
+function validMessage() {
+    var message = document.getElementById("message").value;
+    if (message == "") {
+        alert("please provide message");
     }
-    
-    function validMessage() {
-        var message = document.getElementById("message").value;
-        if (message == "") {
-            alert("please provide message");
-        }
-    }
-    
+}

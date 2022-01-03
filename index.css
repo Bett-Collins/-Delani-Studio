@@ -6,6 +6,7 @@
     padding-top: 150px;
     background-repeat: no-repeat;
     padding: 10% 10% 10% 10%;
+    
 
 }
 
@@ -20,6 +21,8 @@
     color: white;
     background-size: cover;
     text-align: center;
+    background-position: center;
+    
 }
 
 .image {
