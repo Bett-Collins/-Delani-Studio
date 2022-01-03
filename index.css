@@ -45,11 +45,36 @@
         height: 400px;
         color: white;
         position: relative;
+      
     
        }
+
+       #message {
+        height: 100px;
+        width: 500px;
+        margin-right: 80px;
+        margin-top: -2%;
+        
+      
+    }
+    #text{
+        width: 360px;
+        height: 70px;
+       
+    }
+    #email {
+        width:270px;
+        height: 15px;
+        margin-left: 100px;
+    }
        .footer{
         text-align: center;
       
         padding-top: 50px;
     
     }
+    button {
+      margin-right: 300px;
+       
+        }
+    
