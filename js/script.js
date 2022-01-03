@@ -101,6 +101,8 @@ $(document).ready(function () {
 
     $(".eight").mouseenter(function () {
         $("#eight").hide()
+    })
+})
 
     function submit() {
 
@@ -130,5 +132,4 @@ $(document).ready(function () {
             alert("please provide message");
         }
     }
-    })
-})
+    
