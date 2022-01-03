@@ -5,9 +5,15 @@ $(document).ready(function () {
 
 
     })
+    $("#design-p").click(function () {
+        $("#design").show()
+        $("#design-p").hide()
+
+
+    })
     $("#development").click(function () {
         $("#develop").show()
-        $("#devopment").hide()
+        $("#development").hide()
 
     })
 
@@ -88,4 +94,5 @@ $(document).ready(function () {
         $("#eight").hide()
 
     })
+    
 })
