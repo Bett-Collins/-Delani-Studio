@@ -12,7 +12,7 @@
     text-align: center;
 }
 
-.three {
+.service {
   
     background-image: url(/images/backgrounds/s_image.jpg);
     background-repeat: no-repeat;
@@ -35,6 +35,13 @@
         display: flex;
     }
     
+.pictures{
+
+}
+
+
+
+
     .form{
  
         padding-top: 30px;
