@@ -20,3 +20,14 @@
     background-size: cover;
    text-align: center;
 }
+.image{
+
+    display: flex;
+    }
+    .title{
+        align-items: center;
+    }
+
+    .cont1 {
+        display: flex;
+    }
