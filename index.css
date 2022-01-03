@@ -35,12 +35,15 @@
         display: flex;
     }
     
-.pictures{
-
+#design-p{
+    display: none;
 }
-
-
-
+#develop{
+    display: none;
+}
+#product{
+    display: none;
+}
 
     .form{
  

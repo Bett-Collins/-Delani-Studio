@@ -1,7 +1,7 @@
 $(document).ready(function () {
-    $("#design-p").click(function () {
-        $("#design").show()
-        $("#design-p").hide()
+    $("#design").click(function () {
+        $("#design-p").show()
+        $("#design").hide()
 
 
     })
@@ -16,10 +16,19 @@ $(document).ready(function () {
         $("#development").hide()
 
     })
+    $("#develop").click(function () {
+        $("#development").show()
+        $("#develop").hide()
+
+    })
 
     $("#product-design").click(function () {
         $("#product").show()
         $("#product-design").hide()
+    })
+    $("#product").click(function () {
+        $("#product-design").show()
+        $("#product").hide()
     })
     $(".one").mouseenter(function () {
         $("#one").show()
@@ -95,4 +104,26 @@ $(document).ready(function () {
 
     })
     
-})
+    function submit() {
+            if( document.contact_us.name.value == "" ) {
+               alert( "Please provide your name!" );
+               document.contact_us.name.focus() ;
+               return false;
+            }
+            if( document.contact_us.email.value == "" ) {
+                alert( "Please provide your email!" );
+                document.contact_us.email.focus() ;
+                return false;
+             }
+           
+             }
+             if( document.contact_us.message.value == "" ) {
+                alert( "Please write your Message first" );
+                document.contact_us.message.focus() ;
+                return false;
+             }
+             else{
+                alert("Message Submitted Successfully")
+                return true ;
+            }
+         })
