@@ -31,25 +31,3 @@
     .cont1 {
         display: flex;
     }
-.cont3 {
-    display: flex;
-}
-.form{
- 
-    padding-top: 30px;
-    text-align: center;
-    background-image: url(/images/backgrounds/c_image.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-    color: white;
-    position: relative;
-
-   }
-   
-   .footer{
-    text-align: center;
-  
-    padding-top: 50px;
-
-}
