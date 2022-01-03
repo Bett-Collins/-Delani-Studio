@@ -1,13 +1,13 @@
 $(document).ready(function () {
     $("#design").click(function () {
-        $("#design-p").show()
-        $("#design").hide()
+        $("#design-p").toggle()
+        $("#design").toggle()
 
 
     })
     $("#design-p").click(function () {
-        $("#design").show()
-        $("#design-p").hide()
+        $("#design").toggle()
+        $("#design-p").toggle()
 
 
     })
@@ -102,28 +102,33 @@ $(document).ready(function () {
     $(".eight").mouseenter(function () {
         $("#eight").hide()
 
-    })
-    
     function submit() {
-            if( document.contact_us.name.value == "" ) {
-               alert( "Please provide your name!" );
-               document.contact_us.name.focus() ;
-               return false;
-            }
-            if( document.contact_us.email.value == "" ) {
-                alert( "Please provide your email!" );
-                document.contact_us.email.focus() ;
-                return false;
-             }
-           
-             }
-             if( document.contact_us.message.value == "" ) {
-                alert( "Please write your Message first" );
-                document.contact_us.message.focus() ;
-                return false;
-             }
-             else{
-                alert("Message Submitted Successfully")
-                return true ;
-            }
-         })
+
+        var enteredName = validName();
+        enteredName = document.getElementById("name").value;
+        validEmail()
+        message();
+        alert("Hey " + enteredName + " ,We have received your message. Thank you for reaching out to us.");
+    
+    }
+    function validName() {
+        var name = document.getElementById("name").value;
+        if (name == "") {
+            alert("please provide name");
+        }
+    }
+    function validEmail() {
+        var email = document.getElementById("email").value;
+        if (email == "") {
+            alert("please provide email");
+        }
+    }
+    
+    function validMessage() {
+        var message = document.getElementById("message").value;
+        if (message == "") {
+            alert("please provide message");
+        }
+    }
+    })
+})
