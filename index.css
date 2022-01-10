@@ -1,12 +1,12 @@
 .head {
     background-image: url(images/backgrounds/h_img.jpg);
 
-    height: 500px;
+    height: 600px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 100px;
     color: white;
 
 
@@ -85,7 +85,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-    color: white;
+    color: none;
     position: relative;
 
 
@@ -124,6 +124,24 @@ button {
 
 }
 
-.one:hover {
-    opacity: 50px;
+
+
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 35px;
+    right: 7px;
+    color: white;
+
+
+
 }
