@@ -8,12 +8,14 @@
     text-align: center;
     padding-top: 40px;
     color: white;
-   
+
 
 }
-.mouse{
+
+.mouse {
     margin: 100px;
 }
+
 .about {
     padding-top: 30px;
 }
@@ -31,7 +33,7 @@
     background-position: center;
     height: 350px;
     padding-top: 150px;
-    
+
 }
 
 .image {
@@ -45,6 +47,7 @@
     align-items: center;
     padding-top: 50px;
 }
+
 .pic {
     padding-bottom: 10px;
 }
@@ -52,6 +55,7 @@
 .cont1 {
     display: flex;
 }
+
 .pictures {
     padding-top: 40px;
     margin: 30px;
@@ -119,6 +123,7 @@ button {
     margin-right: 300px;
 
 }
-.one:hover{
-opacity: 50px;
+
+.one:hover {
+    opacity: 50px;
 }
