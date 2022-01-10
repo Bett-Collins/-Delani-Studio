@@ -1,136 +1,103 @@
 $(document).ready(function () {
     $("#design").click(function () {
-        $("#design-p").toggle()
-        $("#design").toggle()
+        $("#design-p").toggle();
+        $("#design").toggle();
 
 
-    })
+    });
     $("#design-p").click(function () {
         $("#design").toggle()
         $("#design-p").toggle()
 
 
-    })
+    });
     $("#development").click(function () {
-        $("#develop").show()
-        $("#development").hide()
+        $("#develop").show();
+        $("#development").hide();
 
-    })
+    });
     $("#develop").click(function () {
-        $("#development").show()
-        $("#develop").hide()
+        $("#development").show();
+        $("#develop").hide();
 
-    })
+    });
 
     $("#product-design").click(function () {
-        $("#product").show()
-        $("#product-design").hide()
-    })
+        $("#product").show();
+        $("#product-design").hide();
+    });
     $("#product").click(function () {
-        $("#product-design").show()
-        $("#product").hide()
-    })
-    $(".one").mouseenter(function () {
-        $("#one").show()
-    })
+        $("#product-design").show();
+        $("#product").hide();
+    });
+});
 
-    $(".one").mouseenter(function () {
-        $("#one").hide()
+    $(".one").mouseover(function () {
+        $("#one").show();
+    });
+        $(".one").mouseout(function () {
+        $("#one").hide();
+    });
 
-    })
 
-    $(".two").mouseenter(function () {
-        $("#two").show()
+    $(".two").mouseover(function () {
+        $("#two").show();
+    });
+        $(".two").mouseout(function () {
+            $("#two").hide();
+   
+});
+    
+   $(".three").mouseover(function () {
+ $("#three").show()
+});
+ $(".three").mouseout(function () {
+    $("#three").hide()
+ });
 
-    })
 
-    $(".two").mouseenter(function () {
-        $("#two").hide()
 
-    })
-    $(".three").mouseenter(function () {
-        $("#three").show()
+    $(".four").mouseover(function () {
+        $("#four").show();
+    });
+        $(".four").mouseout(function () {
+            $("#four").hide();
+    });
 
-    })
+ 
+ 
+    $(".five").mouseover(function () {
+        $("#five").show();
+    });
+        $(".five").mouseout(function () {
+            $("#five").hide();
+    });
 
-    $(".three").mouseenter(function () {
-        $("#three").hide()
 
-    })
 
-    $(".four").mouseenter(function () {
-        $("#four").show()
+    $(".six").mouseover(function () {
+        $("#six").show();
+        
+    });
+        $(".six").mouseout(function () {
+            $("#six").hide();
+    });
 
-    })
-
-    $(".four").mouseenter(function () {
-        $("#four").hide()
-
-    })
-    $(".five").mouseenter(function () {
-        $("#five").show()
-
-    })
-
-    $(".five").mouseenter(function () {
-        $("#five").hide()
-
-    })
-    $(".six").mouseenter(function () {
-        $("#six").show()
-
-    })
-
-    $(".six").mouseenter(function () {
-        $("#six").hide()
-
-    })
-    $(".seven").mouseenter(function () {
+ 
+    $(".seven").mouseover(function () {
         $("#seven").show()
+    });
+        $(".seven").mouseout(function () {
+            $("#seven").hide()
+    
 
-    })
-
-    $(".seven").mouseenter(function () {
-        $("#seven").hide()
-
-    })
-    $(".eight").mouseenter(function () {
+ });
+    
+ 
+ $(".eight").mouseover(function () {
         $("#eight").show();
+    });
+        $(".eight").mouseout(function () {
+            $("#eight").hide();
+    });
 
-    })
-
-    $(".eight").mouseenter(function () {
-        $("#eight").hide()
-    })
-})
-
-function submit() {
-
-    var enteredName = validName();
-    enteredName = document.getElementById("name").value;
-    validEmail()
-    message();
-    alert("Hey " + enteredName + " ,We have received your message. Thank you for reaching out to us.");
-
-}
-
-function validName() {
-    var name = document.getElementById("name").value;
-    if (name == "") {
-        alert("please provide name");
-    }
-}
-
-function validEmail() {
-    var email = document.getElementById("email").value;
-    if (email == "") {
-        alert("please provide email");
-    }
-}
-
-function validMessage() {
-    var message = document.getElementById("message").value;
-    if (message == "") {
-        alert("please provide message");
-    }
-}
