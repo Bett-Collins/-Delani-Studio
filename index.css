@@ -63,6 +63,8 @@
 
 .cont3 {
     display: flex;
+    margin: 20px;
+    
 }
 
 #design-p {
@@ -79,38 +81,29 @@
 
 .form {
 
-    padding-top: 30px;
+    padding-top: 60px;
     text-align: center;
     background-image: url(/images/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-    color: none;
+    color: white;
     position: relative;
+    
 
 
 }
 
 #message {
-    height: 100px;
+    height: 150px;
     width: 500px;
     margin-right: 80px;
-    margin-top: -2%;
+    
 
 
 }
 
-#text {
-    width: 360px;
-    height: 70px;
 
-}
-
-#email {
-    width: 270px;
-    height: 15px;
-    margin-left: 100px;
-}
 
 .footer {
     text-align: center;
@@ -124,6 +117,44 @@ button {
 
 }
 
+#name{
+    height: 25px;
+    width: 400px;
+    margin-right: 25%;
+}
+#email{
+    height: 25px;
+    width: 400px;
+    margin-left: 50%;
+    margin-top: -20%;
+
+    
+}
+.one:hover{ 
+    opacity: 0.5;
+}
+
+.two:hover{
+    opacity: 0.3
+}
+.three:hover {
+
+ opacity: 0.3
+}
+.four:hover {
+    opacity: 0.3
+}
+.five:hover {
+    opacity: 0.3
+}
+.six:hover{
+    opacity: 0.3
+}
+.seven:hover {
+    opacity: 0.3}
+.eight:hover{ 
+    opacity: 0.3
+}
 
 
 
@@ -136,11 +167,16 @@ button {
 #seven,
 #eight {
     display: none;
-    position: absolute;
+    box-shadow: grey;
+    padding-top: 20px;
+    margin-top: 40px;
     top: 10px;
     left: 35px;
     right: 7px;
     color: white;
+    position: absolute;
+    border:solid
+
 
 
 
